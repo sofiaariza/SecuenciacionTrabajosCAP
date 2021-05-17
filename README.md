@@ -1,0 +1,2 @@
+# SecuenciacionTrabajosCAP
+ En este repositorio se encuentra la implementación del Algoritmo de Moore, el Modelo Matemático de Süer et. al, Heurística de Ho y Chang, Modelo Matemático de Almasarwah et. al. y un nuevo Modelo Matemático propuesto por mi para el agendamiento de n trabajos en m máquinas paralelas con el objetivo de disminuir el número de trabajos tardíos atendiendo a restricciones de disponibilidad en las instalaciones del Centro de Automatización de Procesos 

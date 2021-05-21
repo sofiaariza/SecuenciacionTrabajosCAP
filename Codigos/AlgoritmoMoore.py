@@ -25,10 +25,13 @@ def algoritmoMoore():
 	#jobs.append(["Ji",di,pi])
 	
 	jobs=[]
-	n=200
-	for i in range(n):
-		Ji,di,pi=input().strip().split()
-		jobs.append((Ji,float(di),float(pi)))
+	n=50
+	for i in range(n+1):
+		if (i==0):
+			nada=input()
+		else:
+			Ji,di,pi=input().strip().split(";")
+			jobs.append((Ji,float(di),float(pi)))
 
 	"""
 	Entrada: Colección de trabajos A[0…I), I≥0 tal que A[i] contiene la tupla (Ji,di,pi) indicando el nombre, plazo máximo de entrega

@@ -160,9 +160,12 @@ def main():
 	"""
 	M=2
 	jobs=[]
-	n=200
-	for i in range(n):
-		Ji,di,pi=input().strip().split(";")
-		jobs.append([Ji,float(di),float(pi)])
+	n=50
+	for i in range(n+1):
+		if (i==0):
+			nada=input()
+		else:
+			Ji,di,pi=input().strip().split(";")
+			jobs.append([Ji,float(di),float(pi)])
 	schedules, rejected, impossible = H2(jobs, M)
 main()

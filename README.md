@@ -4,12 +4,12 @@
 ## Prerrequisitos
  Para los modelos en formato .pynb se posee como prerrequisito descargar Anaconda y Gurobi (remitirse al manual de instalación adjuntado en pdf).
 ## Pasos para ejecutar el código
-1.	Crear un archivo .csv que posea el siguiente formato: 
+1.	Crear un archivo .csv que posea el siguiente formato:\n 
 |        JOB|  Deadline  |     PT	   |
 |----------:||----------:|----------:|
 |          1|	          4|          2|
 |          2|	          2|          1|
-|          3|	          1|          1|
+|          3|	          1|          1|\n
  Donde la primera columna posee el indicativo de la solicitud, la segunda su plazo de entrega y la tercera su tiempo de procesamiento.
 ### Para ejecutar los archivos .pynb, es decir, el Modelo de Süer et. al, Almasarwah et. al, y el propuesto por mí:
 2.	Presionar “Run” al código del Notebook de Jupyter.

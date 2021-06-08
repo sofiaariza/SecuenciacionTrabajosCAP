@@ -1,30 +1,5 @@
 def algoritmoMoore():
 	jobs= list()
-	"""
-	jobs.append(("J1",4,8))
-	jobs.append(("J2",13,2))
-	jobs.append(("J3",2,2))
-	jobs.append(("J4",8,8))
-	jobs.append(("J5",5,8))
-	jobs.append(("J6",17,4))
-	jobs.append(("J7",6,6))
-	jobs.append(("J8",19,9))
-	jobs.append(("J9",7,5))
-	jobs.append(("J10",8,10))
-	"""
-	"""
-	jobs.append(("J1",35,10))
-	jobs.append(("J2",20,6))
-	jobs.append(("J3",11,3))
-	jobs.append(("J4",8,1))
-	jobs.append(("J5",6,4))
-	jobs.append(("J6",25,8))
-	jobs.append(("J7",28,7))
-	jobs.append(("J8",9,6))
-	"""
-	#jobs.append(["Ji",di,pi])
-	
-	jobs=[]
 	n=50
 	for i in range(n+1):
 		if (i==0):
@@ -34,7 +9,7 @@ def algoritmoMoore():
 			jobs.append((Ji,float(di),float(pi)))
 
 	"""
-	Entrada: Colección de trabajos A[0…I), I≥0 tal que A[i] contiene la tupla (Ji,di,pi) indicando el nombre, plazo máximo de entrega
+	Entrada: Colección de trabajos A[0…I), I≥0 tal que A[i] contiene la lista [Ji,di,pi] indicando el nombre, plazo máximo de entrega
 			y tiempo de procesamiento del trabajo i, 0≤i≤I, respectivamente.
 	Salida: Secuencia de la mínima cantidad de trabajos en A[0…I) que no violan el plazo límite de entrega.
 	"""
